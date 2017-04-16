@@ -1,11 +1,5 @@
-use_frameworks!
+# use_frameworks!
 
 target 'CocoaPodsHeaderDirTest_Example' do
   pod 'CocoaPodsHeaderDirTest', :path => '../'
-
-  target 'CocoaPodsHeaderDirTest_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

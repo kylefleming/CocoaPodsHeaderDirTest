@@ -1,0 +1,16 @@
+PODS:
+  - CocoaPodsHeaderDirTest (0.1.0)
+
+DEPENDENCIES:
+  - CocoaPodsHeaderDirTest (from `../`)
+
+EXTERNAL SOURCES:
+  CocoaPodsHeaderDirTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaPodsHeaderDirTest: 491458a0b38c044306164dae81bf5f5e517a4ad3
+
+PODFILE CHECKSUM: 23102adf9be8923b1d097614d733d21a50ef9cbc
+
+COCOAPODS: 1.2.1

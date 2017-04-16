@@ -22,7 +22,7 @@ pod "CocoaPodsHeaderDirTest"
 
 ## Author
 
-kylefleming, garthex@gmail.com
+kylefleming, kyle@kylefleming.net
 
 ## License
 

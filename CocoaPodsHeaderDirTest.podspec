@@ -22,21 +22,13 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/kylefleming/CocoaPodsHeaderDirTest'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kylefleming' => 'garthex@gmail.com' }
+  s.author           = { 'kylefleming' => 'kyle@kylefleming.net' }
   s.source           = { :git => 'https://github.com/kylefleming/CocoaPodsHeaderDirTest.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CocoaPodsHeaderDirTest/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CocoaPodsHeaderDirTest' => ['CocoaPodsHeaderDirTest/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.header_dir = "CorrectName"
 end
