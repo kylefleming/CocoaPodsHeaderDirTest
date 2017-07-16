@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049AF0F5DE0D59FE82E661CA /* libPods-CocoaPodsHeaderDirTest_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D57823C54F3F0A2B05992FF /* libPods-CocoaPodsHeaderDirTest_Example.a */; };
 		27F5E9DD1EA3E54400467D8A /* HDExampleUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F5E9DC1EA3E54400467D8A /* HDExampleUsage.m */; };
-		2D711EF7004CA11C759293FB /* libPods-CocoaPodsHeaderDirTest_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 911A243216988FA5A80DCA93 /* libPods-CocoaPodsHeaderDirTest_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D57823C54F3F0A2B05992FF /* libPods-CocoaPodsHeaderDirTest_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaPodsHeaderDirTest_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F5E9DB1EA3E54400467D8A /* HDExampleUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDExampleUsage.h; sourceTree = "<group>"; };
 		27F5E9DC1EA3E54400467D8A /* HDExampleUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDExampleUsage.m; sourceTree = "<group>"; };
 		2EE2EEBFDAFD22CC4CF9D94D /* CocoaPodsHeaderDirTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = CocoaPodsHeaderDirTest.podspec; path = ../CocoaPodsHeaderDirTest.podspec; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		64B08D79E1A1609A6C00F162 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		911A243216988FA5A80DCA93 /* libPods-CocoaPodsHeaderDirTest_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaPodsHeaderDirTest_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6F48E0928CC94DE20DB0C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DA42EDF62EE45A0C84BD4A91 /* Pods-CocoaPodsHeaderDirTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsHeaderDirTest_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaPodsHeaderDirTest_Example/Pods-CocoaPodsHeaderDirTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FDA50E955D8E517D5999063E /* Pods-CocoaPodsHeaderDirTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsHeaderDirTest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaPodsHeaderDirTest_Example/Pods-CocoaPodsHeaderDirTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2D711EF7004CA11C759293FB /* libPods-CocoaPodsHeaderDirTest_Example.a in Frameworks */,
+				049AF0F5DE0D59FE82E661CA /* libPods-CocoaPodsHeaderDirTest_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				911A243216988FA5A80DCA93 /* libPods-CocoaPodsHeaderDirTest_Example.a */,
+				1D57823C54F3F0A2B05992FF /* libPods-CocoaPodsHeaderDirTest_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,9 +207,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CocoaPodsHeaderDirTest_Example/Pods-CocoaPodsHeaderDirTest_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaPodsHeaderDirTest/CorrectName.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CorrectName.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -222,13 +225,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CocoaPodsHeaderDirTest_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		73596296707977ECCEA819BD /* [CP] Copy Pods Resources */ = {
