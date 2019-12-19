@@ -1,9 +1,6 @@
 # CocoaPodsHeaderDirTest
 
-[![CI Status](http://img.shields.io/travis/kylefleming/CocoaPodsHeaderDirTest.svg?style=flat)](https://travis-ci.org/kylefleming/CocoaPodsHeaderDirTest)
-[![Version](https://img.shields.io/cocoapods/v/CocoaPodsHeaderDirTest.svg?style=flat)](http://cocoapods.org/pods/CocoaPodsHeaderDirTest)
-[![License](https://img.shields.io/cocoapods/l/CocoaPodsHeaderDirTest.svg?style=flat)](http://cocoapods.org/pods/CocoaPodsHeaderDirTest)
-[![Platform](https://img.shields.io/cocoapods/p/CocoaPodsHeaderDirTest.svg?style=flat)](http://cocoapods.org/pods/CocoaPodsHeaderDirTest)
+See: https://github.com/CocoaPods/CocoaPods/issues/6658
 
 ## Example
 
